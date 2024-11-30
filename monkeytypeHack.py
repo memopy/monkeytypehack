@@ -17,6 +17,7 @@ while time()-start < 30:
     print(text)
     page.keyboard.type(text)
 
+#100 sec's sleep to see your wpm
 sleep(100.0)
 
 page.close()
